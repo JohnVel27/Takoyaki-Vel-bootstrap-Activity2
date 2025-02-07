@@ -746,14 +746,14 @@ body {
       padding: 30px;
       border-radius: 20px;
       margin-right: 690px;
-      margin-bottom: 400px;
+      margin-bottom: 200px;
   }
 
   .yellow-containercirclelogo {
       width: 150px; /* Smaller circle on smaller screens */
       height: 150px;
       margin: 15px auto; /* Adjust margin as needed */
-      margin-top: 1400px;
+      margin-top: 1600px;
   }
 
   .about-logo img {
