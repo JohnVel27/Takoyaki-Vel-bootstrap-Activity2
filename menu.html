@@ -1,0 +1,244 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#"> <img src="images/takoyakilogo.png" alt="Logo" class="logo">TAKOYAKI VEL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contanct.html">ContactUs</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!--Food Section-->
+<section class="food-section">
+    <h1 class="menu-title">MENU</h1>
+<div class="container">
+    <ul class="filters_menu">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".takoyaki">Takoyaki</li>
+        <li data-filter=".drinks">Drinks</li>
+    </ul>
+    <div class="row grid">
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/classictakoyaki.jpg" alt="Classical Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">CLASSICAL TAKOYAKI</h5>
+                    <p>Experience the best Japanese street food with our crispy yet soft Takoyaki balls.</p>
+                    <p class="price">₱50</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/blacktakoyaki.jpg" alt="Black Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">BLACK TAKOYAKI</h5>
+                    <p>Indulge in the unique taste of our Black Takoyaki, featuring a smoky flavor and a touch of gourmet seasoning for a distinctive experience!</p>
+                    <p class="price">₱90</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/cheesetakoyaki.jpg" alt="Black Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">CHEESE TAKOYAKI</h5>
+                    <p>Our special Takoyaki is loaded with premium cheese for an extra creamy taste!</p>
+                    <p class="price">₱60</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/desserttakoyaki.jpg" alt="Black Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">DESSERT TAKOYAKI</h5>
+                    <p>Satisfy your sweet tooth with our Dessert Takoyaki, stuffed with delicious fillings like chocolate, caramel, and fruit, making it the perfect treat!</p>
+                    <p class="price">₱70</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/seafoodtakoyaki.jpg" alt="Seafood Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">SEAFOOD TAKOYAKI</h5>
+                    <p>Discover the ocean’s best with our Seafood Takoyaki, filled with shrimp, octopus, and other fresh seafood delicacies wrapped in a savory batter.</p>
+                    <p class="price">₱90</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 takoyaki">
+            <div class="card menu-card">
+                <img src="images/spicytakoyaki.jpg" alt="Spicy Takoyaki">
+                <div class="card-body">
+                    <h5 class="card-title">SPICY TAKOYAKI</h5>
+                    <p>Love spice? Try our fiery version of Takoyaki, guaranteed to give you a kick!</p>
+                    <p class="price">₱80</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 drinks">
+            <div class="card menu-card">
+                <img src="images/Gulaman.jpg" alt="Refreshing Drink">
+                <div class="card-body">
+                    <h5 class="card-title">Gulaman</h5>
+                    <p>A sweet and refreshing jelly drink, perfect for cooling down on a hot day. Made with brown sugar syrup and chewy jelly cubes for a delightful treat.</p>
+                    <p class="price">₱50</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 drinks">
+            <div class="card menu-card">
+                <img src="images/bottledwater.jpg" alt="Refreshing Drink">
+                <div class="card-body">
+                    <h5 class="card-title">Bottled Water</h5>
+                    <p>Crisp, clean, and pure hydration in every sip. Stay refreshed and energized anytime, anywhere.</p>
+                    <p class="price">₱25</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 drinks">
+            <div class="card menu-card">
+                <img src="images/softdrinks.jpg" alt="Refreshing Drink">
+                <div class="card-body">
+                    <h5 class="card-title">SOFTDRINKS</h5>
+                    <p>Classic carbonated beverages with a fizzy kick. A perfect companion to any meal, offering a burst of sweetness and refreshment.</p>
+                    <p class="price">₱30</p>
+                    <button class="btn btn-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</section>
+
+
+ <!-- footer section -->
+ <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <h4>
+                Takoyaki Vel
+              </h4>
+            <p>
+              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+            </p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Opening Hours
+          </h4>
+          <p>
+            Everyday
+          </p>
+          <p>
+            10.00 Am -10.00 Pm
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Free Html Templates</a><br><br>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
